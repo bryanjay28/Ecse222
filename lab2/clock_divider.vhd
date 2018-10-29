@@ -1,0 +1,45 @@
+-- Author: Bryan & Julia
+
+-- This is a module to slow down the clock to human speeds
+----------
+
+-- Import the necessary libraries
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+-- Declare entity
+entity clock_divider is
+	Generic( slow_factor : integer := 10000000 -- 1 million times slower
+	);
+	Port (
+		clock		: in std_logic; -- Clock for the system
+		reset		: in std_logic; -- Resets the counter
+		slow_clock	: out std_logic -- Slow clock value
+	     );
+end clock_divider;
+
+architecture behaviour of clock_divider is
+	signal clock_reg	: std_logic;
+begin
+	process(clock)
+		-- Internal Variable
+		variable counter_reg : integer := 0;
+
+	begin
+		if(reset = '1') then
+			counter_reg := 0;
+			clock_reg <= '0';
+		elsif (clock'event and clock = '1') then
+			counter_reg := counter_reg + 1; 
+
+			if(counter_reg = slow_factor) then
+				clock_reg <= not clock_reg;
+				counter_reg := 0;
+			end if;
+		end if;
+	end process;
+
+	slow_clock <= clock_reg;
+
+end behaviour;

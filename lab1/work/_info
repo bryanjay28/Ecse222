@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.0
+Eled_decoder
+Z0 w1509475274
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/intelFPGA_lite/17.0/lab1
+Z4 8C:/intelFPGA_lite/17.0/lab1/led_decoder.vhd
+Z5 FC:/intelFPGA_lite/17.0/lab1/led_decoder.vhd
+l0
+L8
+V^PDOmDaaM0MVAX:nX1NM=2
+!s100 D<lRzl:VgcYbbD8`jT01@0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1509481620
+!i10b 1
+Z8 !s108 1509481620.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.0/lab1/led_decoder.vhd|
+Z10 !s107 C:/intelFPGA_lite/17.0/lab1/led_decoder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+DEx4 work 11 led_decoder 0 22 ^PDOmDaaM0MVAX:nX1NM=2
+l16
+L15
+V^W]cPnIHN1WAXWgl[mGcQ1
+!s100 j[^DNZJEIajoP9kZFS]n10
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseven_seg_decoder
+Z13 w1509474593
+R1
+R2
+R3
+Z14 8C:\intelFPGA_lite\17.0\lab1\seven_seg_decoder.vhd
+Z15 FC:\intelFPGA_lite\17.0\lab1\seven_seg_decoder.vhd
+l0
+L17
+V>b?<l6GJd@`C8Y;KNVkAD1
+!s100 DdFcQ]l@jQV5][dill:Yc3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\intelFPGA_lite\17.0\lab1\seven_seg_decoder.vhd|
+Z17 !s107 C:\intelFPGA_lite\17.0\lab1\seven_seg_decoder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 17 seven_seg_decoder 0 22 >b?<l6GJd@`C8Y;KNVkAD1
+l25
+L24
+VUcMHHR<nU4X06kk9DO>do3
+!s100 U5SPHBBn^>BXN0ZlZfW]F2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etb_led_decoder
+Z18 w1509296603
+R1
+R2
+R3
+Z19 8C:\intelFPGA_lite\17.0\lab1\tb_led_decoder.vhd
+Z20 FC:\intelFPGA_lite\17.0\lab1\tb_led_decoder.vhd
+l0
+L8
+V_f@`cOMgC`BhK`]Lz8[FI2
+!s100 TB@O3QdbR4X:llQ96:D4Q1
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\intelFPGA_lite\17.0\lab1\tb_led_decoder.vhd|
+Z22 !s107 C:\intelFPGA_lite\17.0\lab1\tb_led_decoder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 14 tb_led_decoder 0 22 _f@`cOMgC`BhK`]Lz8[FI2
+l24
+L11
+VT^d2m9G>3]OEdBId8UI<@1
+!s100 I4@09SgdRa7Nhgalh@bf]1
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Etb_seven_seg_decoder
+Z23 w1509313113
+R1
+R2
+R3
+Z24 8C:\intelFPGA_lite\17.0\lab1\tb_seven_seg_decoder.vhd
+Z25 FC:\intelFPGA_lite\17.0\lab1\tb_seven_seg_decoder.vhd
+l0
+L8
+VkI[44iX4>DWzHAmLHb>F?1
+!s100 MWoS0CPEP3jkWjPQ]kQj23
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\intelFPGA_lite\17.0\lab1\tb_seven_seg_decoder.vhd|
+Z27 !s107 C:\intelFPGA_lite\17.0\lab1\tb_seven_seg_decoder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+Z28 DEx4 work 20 tb_seven_seg_decoder 0 22 kI[44iX4>DWzHAmLHb>F?1
+l24
+L11
+Z29 V3[:dPziPUPMNMP[@FNNYg2
+Z30 !s100 `L@WnlbnCLgm:3I]Vm9fA0
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
